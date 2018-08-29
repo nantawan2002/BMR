@@ -1,0 +1,12 @@
+<meta charset="utf-8">
+<?php
+   $a = 100;  //ราคาสินค้า 
+   $b = 5;   //ส่วนลด 5%
+   
+   $discount = $a*$b/100;  //คำนวณส่วนลด
+   
+	echo "สินค้าราคา = ". $a. " บาท";
+	echo "<br />";
+	echo  "ส่วนลด  5 % =  " .$discount."  บาท" ;
+	echo "<br />";
+	echo  "<strong>"
